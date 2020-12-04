@@ -1,0 +1,44 @@
+<!-- Start Testimonials -->
+		<section id="mu-testimonials">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-testimonials-area">
+							<div class="mu-testimonial-header">
+								<h2 class="mu-heading-title">Client Testimonials</h2>
+								<span class="mu-header-dot"></span>
+							</div>
+
+							<div class="mu-testimonials-block">
+								<ul class="mu-testimonial-slide">
+
+									<li>
+										<i class="fa fa-quote-right mu-quote-icon"></i>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+										<h5 class="mu-ct-name"> - Jhon Doe</h5>
+										<span class="mu-ct-title">CEO, Apple Inc.</span>
+									</li>
+
+									<li>
+										<i class="fa fa-quote-right mu-quote-icon"></i>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+										<h5 class="mu-ct-name"> - Alice Boga</h5>
+										<span class="mu-ct-title">Director, Google Inc.</span>
+									</li>
+
+									<li>
+										<i class="fa fa-quote-right mu-quote-icon"></i>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+										<h5 class="mu-ct-name"> - Jhon Smith</h5>
+										<span class="mu-ct-title">Web Developer</span>
+									</li>
+
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Testimonials -->

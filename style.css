@@ -271,6 +271,13 @@ button:focus {
 	margin-top: -7px;
 }
 
+.mu-profile-img {
+	border-radius: 100%;
+	margin-bottom: 30px;
+	width: 30%;
+	height: 30%;
+}
+
 #mu-header.mu-fixed-nav {
 	width: 100%;
 	position: fixed;
@@ -351,7 +358,7 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
-	padding: 28% 10%;
+	padding: 16% 10%;
 	text-align: center;
 }
 
@@ -505,6 +512,13 @@ button:focus {
 	top: 0;
 	left: 48%;
 	color: #fff;
+}
+
+.mu-profile-tests {
+	margin: 20px 0;
+	display: inline;
+	float: left;
+	width: 100%;
 }
 
 .mu-social-media{
@@ -724,7 +738,8 @@ button:focus {
 }
 
 .mu-filter-link,
-.mu-filter-imglink {
+.mu-filter-imglink,
+.mu-filter-videolink {
 	border-radius: 50%;
     background: #1b1c29;
     color: #fff;
@@ -744,6 +759,8 @@ button:focus {
 
 .mu-filter-link:hover,
 .mu-filter-imglink:hover,
+.mu-filter-videolink:hover,
+.mu-filter-videolink:focus,
 .mu-filter-link:focus,
 .mu-filter-imglink:focus {
 	background-color: #fff;
@@ -1115,7 +1132,6 @@ button:focus {
 	.mu-skill-progress-bar h3 {
 		margin-top: 0;
 	}
-
 	
 }
 
@@ -1142,7 +1158,7 @@ button:focus {
 	}
 	 
 	.mu-featured-area {
-		padding: 28% 5%;
+		padding: 25% 5%;
 	}
 
 	.mu-about-content-left img{
@@ -1209,6 +1225,12 @@ button:focus {
 	.mu-contact-top-single {
 		margin-bottom: 25px;
 	}
+
+	.mu-profile-img {
+		margin-bottom: 15px;
+		width: 40%;
+		height: 40%;
+	}
 	
 		
 }
@@ -1246,7 +1268,12 @@ button:focus {
 	.slick-dots {
 		bottom: 15px;
 	}
-			
+
+	.mu-profile-img {
+		margin-bottom: 15px;
+		width: 50%;
+		height: 50%;
+	}
 
 }
 
@@ -1326,7 +1353,11 @@ button:focus {
 		padding: 20% 5%;
 	}
 
-				
+	.mu-profile-img {
+		margin-bottom: 15px;
+		width: 50%;
+		height: 50%;
+	}			
 	
 }
 
@@ -1374,6 +1405,13 @@ button:focus {
 	.mu-contact-content {
 		padding: 0;
 	}
+
+	.mu-profile-img {
+		margin-bottom: 15px;
+		width: 50%;
+		height: 50%;
+	}
+
 	
 }
 

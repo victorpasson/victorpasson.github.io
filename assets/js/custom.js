@@ -62,49 +62,40 @@
 		$('.mu-skill-progress-bar').appear(function() {
 
 		 	$('.mu-html5-bar').LineProgressbar({
-				percentage: 60,
+				percentage: 75,
 				triggerOnce: true
 			});
 
 			$('.mu-css-bar').LineProgressbar({
-				percentage: 90,
-				triggerOnce: true
-			});
-
-			$('.mu-photoshop-bar').LineProgressbar({
-				percentage: 85,
-				triggerOnce: true
-			});
-
-			$('.mu-wordpress-bar').LineProgressbar({
-				percentage: 80,
+				percentage: 75,
 				triggerOnce: true
 			});
 
 			$('.mu-python-bar').LineProgressbar({
-				percentage: 55,
-				triggerOnce: true
-			});
-
-			$('.mu-lingr-bar').LineProgressbar({
 				percentage: 75,
 				triggerOnce: true
 			});
 
 			$('.mu-sql-bar').LineProgressbar({
-				percentage: 55,
+				percentage: 70,
 				triggerOnce: true
 			});
 
-			$('.mu-bi-bar').LineProgressbar({
+			$('.mu-wordpress-bar').LineProgressbar({
+				percentage: 65,
+				triggerOnce: true
+			});
+
+			$('.mu-django-bar').LineProgressbar({
 				percentage: 60,
 				triggerOnce: true
 			});
 
-			$('.mu-azure-bar').LineProgressbar({
-				percentage: 55,
+			$('.mu-javascript-bar').LineProgressbar({
+				percentage: 40,
 				triggerOnce: true
 			});
+
 		});
 
 
@@ -194,6 +185,11 @@
 	    enabled:true
 	  }
 	});
+
+	$('.mu-filter-videolink').magnificPopup({
+		type: 'iframe',
+		mainClass: 'mfp-fade'
+	  });
 
 	/* ----------------------------------------------------------- */
 	/*  8. CLIENT TESTIMONIALS (SLICK SLIDER)

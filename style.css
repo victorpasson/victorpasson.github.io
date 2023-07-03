@@ -168,6 +168,23 @@ button:focus {
 	border: none;
 }
 
+#post {
+	padding: 60px;
+}
+
+#post p {
+	text-align: justify;
+}
+
+.my-border {
+	border-radius: 25px;
+}
+
+.my-border h2 {
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
 /*Wordpress default class*/
 
 .alignleft {

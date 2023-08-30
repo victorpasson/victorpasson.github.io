@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Site Title -->
+  <title>João Victor: Home</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/icon" href="../images/favicon.ico" />
+  <!-- Font Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <!-- Slick slider -->
+  <link href="../css/slick.css" rel="stylesheet">
+  <!-- Gallery Lightbox -->
+  <link href="../css/magnific-popup.css" rel="stylesheet">
+  <!-- Theme color -->
+  <link id="switcher" href="../css/theme-color/lite-blue-theme.css" rel="stylesheet">
+
+  <!-- Main Style -->
+  <link href="../../style.css" rel="stylesheet">
+
+  <!-- Fonts -->
+
+  <!-- Open Sans for body font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+  <!-- Poppins for Title -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- Start Header -->
+  <header id="mu-header" class="" role="banner">
+    <div class="container">
+      <nav class="navbar navbar-default mu-navbar">
+        <div class="container-fluid">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapse" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <!-- Text Logo -->
+            <a class="navbar-brand" href="#">João Victor</a>
+          </div><!-- End Div -->
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav mu-menu navbar-right">
+              <li><a href="../../index.html">INÍCIO</a></li>
+              <li><a href="../../index.html#mu-about">SOBRE</a></li>
+              <li><a href="../../index.html#mu-portfolio">PORTFOLIO</a></li>
+              <li><a href="../../index.html#mu-service">POSTS</a></li>
+              <li><a href="../../index.html#mu-contact">CONTATO</a></li>
+            </ul>
+          </div><!-- End NavBar Collapse -->
+
+        </div><!-- End Container Fluid -->
+      </nav><!-- End Nav -->
+    </div><!-- End Container -->
+  </header>
+  <!-- End Header -->
+
+  <!-- Start Featured Slider-->
+  <section id="mu-featured-slider">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="post" class="mu-featured-area">
+
+            <div class="mu-about-content my-border">
+              <h2 class="mu-heading-title">Docker - Comandos Básicos</h2>
+              <span class="mu-header-dot"></span>
+              <img class="img-thumbnail" src="https://ninelabs.blog/wp-content/uploads/2022/12/capa-docker.jpg"
+                alt="Docker">
+              <br>
+              <br>
+              <p>Docker é uma ferramenta que simplifica significativamente o processo de desenvolvimento de aplicações,
+                tanto para
+                indivíduos quanto para equipes colaborativas. Por meio do uso de containers, o Docker permite a execução
+                de aplicações
+                em ambientes computacionais isolados. Imagine construir uma aplicação que envolva tecnologias como React
+                e MongoDB. Com
+                o Docker, é possível executar esses componentes em ambientes isolados, facilitando sua comunicação e
+                interação.</p>
+
+              <p>No contexto do desenvolvimento em equipe, o Docker oferece uma solução eficaz para enfrentar problemas
+                de versionamento.
+                Em vez de exigir que todos os membros da equipe alinhem manualmente os recursos de desenvolvimento
+                necessários para
+                garantir o correto funcionamento da aplicação – incluindo versões, dependências, configurações e
+                variáveis de ambiente
+                –, podemos optar por utilizar containers por meio do Docker.</p>
+
+              <p>Os containers podem ser compreendidos de forma simplificada como pacotes que contêm todas as
+                necessidades da nossa
+                aplicação, já previamente configuradas, para uma execução correta. Esses containers podem ser
+                isoladamente executados,
+                independentes de quaisquer outros processos no nosso sistema. Dessa maneira, para que qualquer membro da
+                equipe obtenha
+                resultados consistentes, é suficiente possuir o Docker para gerenciar esses containers. Portanto, o
+                primeiro passo é
+                instalar esse software.</p>
+
+              <h6>Explicação: Doker Imagens</h6>
+
+              <p>Para construir um container no Docker, é essencial criar sua imagem. Uma analogia útil é comparar
+                containers a casas
+                totalmente construídas, enquanto as imagens seriam as plantas arquitetônicas usadas para ter como base.
+              </p>
+
+              <p>Dentro das imagens, definimos elementos como o ambiente de execução, os códigos essenciais para a
+                construção, as
+                dependências que precisam ser instaladas, configurações adicionais (como variáveis de ambiente) e
+                comandos a serem
+                executados após a criação. Além disso, as imagens possuem arquivos de sistema próprio, independente do
+                computador do
+                usuário.</p>
+
+              <h6>Explicação: Doker Containers</h6>
+
+              <p>Containers representam instâncias executáveis das imagens. Cronologicamente, começamos criando imagens,
+                que atuam como
+                'plantas arquitetônicas', e, posteriormente, executamos essas imagens para gerar nossos containers.
+                Dessa forma, podemos
+                entender os containers como processos que executam nossas aplicações a partir das imagens que criamos.
+                Esses processos
+                operam de forma independente entre si e em relação a outros processos no computador do usuário. No
+                entanto, temos a
+                capacidade de estabelecer comunicação entre esses processos.
+              </p>
+              <br>
+              <p class="lead">Resumindo o processo:</p>
+              <ol class="text-left">
+                <li>Criar imagens que definem tudo que uma aplicação necessita para ser executada: sistema operacional,
+                  versão correta da linguagem de programação e suas dependências, variáveis de ambiente, etc.;</li>
+                <li>Rodamos essas imagens para a construção dos containers e a execução da aplicação.
+                  Nessa execução não importa a versão do sistema operacional, da linguagem de programação, das
+                  dependências, etc. instalados no computador do usuário, pois tudo isso está
+                  rodando no container;</li>
+                <li>Pode-se então compartilhar essas imagens para que qualquer pessoa que precise rode
+                  essa aplicação em seu próprio computador. Essa pessoa irá construir os containers a
+                  partir da imagem recebida e então obterá o mesmo resultado que qualquer outra pessoa.</li>
+              </ol>
+              <hr>
+              <h4>Docker Images</h4>
+
+              <p>As imagens são construídas em várias camadas. A camada mais fundamental é a que denominamos Parent
+                Image (Camada Base),
+                que engloba o sistema operacional e certos elementos em tempo de execução no ambiente do sistema. Essa
+                camada constitui
+                o ponto de partida, enquanto as camadas subsequentes representam acréscimos progressivos: desde
+                códigos-fonte até
+                dependências.</p>
+              <img class="img-thumbnail d-block" src="https://i.postimg.cc/F15tY1rn/imagem-2023-08-30-123058532.png"
+                alt="Layers">
+              <p>As imagens base podem ser acessadas e personalizadas por meio do Docker Hub. O Docker Hub é,
+                essencialmente, um
+                repositório online de imagens Docker, que oferece uma variedade de imagens base pré-configuradas. Essas
+                imagens podem
+                ser usadas como a primeira camada nas nossas próprias imagens.</p>
+              <br>
+              <p class="lead">Dockerfile</p>
+              <p>Para construir nossas próprias imagens com camadas personalizadas, utilizamos um arquivo denominado
+                Dockerfile. Esse
+                arquivo contém instruções que guiam o Docker na criação da imagem, abrangendo todas as distintas camadas
+                ou diretrizes
+                necessárias para construr as layers.</p>
+              <p>Aqui está um modelo de arquivo com comentários para guiar sua estruturação básica. Cada novo comando
+                executado no
+                arquivo representa a criação de uma nova camada (Layer):</p>
+              <pre class="text-left">
+                <code>
+                  # Escolhe a Base Image, nesse caso do Node, especificando a versão
+                  <strong>FROM node:16-alpine</strong>
+
+                  # Após de construir a Base Layer, cira um novo diretório /app e entra nele, todos os comandos a partir daqui serão executando dentro desse diretório
+                  <strong>WORKDIR /app</strong>
+                  
+                  # Copia arquivos para a imagem. O primeiro ponto sinaliza que é da pasta corrente onde foi
+                  criado o Dockerfile. O segundo ponto sinaliza que é a pasta corrente da imagem, nesse caso
+                  a /app
+                  <strong>COPY . .</strong>
+                  
+                  # Agora podemos dizer alguns comandos para rodar na construção da imagem, nesse caso
+                  a instalação das dependências
+                  <strong>RUN npm install</strong>
+                  
+                  # Qual porta o Docker utilizara para o container, nesse caso a 4000
+                  <strong>EXPOSE 4000</strong>
+                  
+                  # Com o comando CMD dizemos para executar um comando toda vez que o container for
+                  executado, após a construção
+                  <strong>CMD [“node”, “app.js”]</strong>
+                </code>
+              </pre>
+              <p>Após a definição das camadas no arquivo Dockerfile, podemos proceder à construção da imagem de acordo
+                com as
+                especificações. Para realizar esse processo, basta executar um único comando Docker no diretório onde o
+                arquivo foi
+                criado.</p>
+              <pre class="text-left">
+                <code>
+                  <strong>$ docker build -t name_image .</strong>
+
+                  # O comando “docker build” é utilizado para especificar que será construída uma imagem,
+                  com -t “name_image” definimos o nome dessa nova imagem, por fim, o “.” sinaliza que o
+                  Dockerfile está na pasta corrente da execução do comando.
+                </code>
+              </pre>
+              <p>No processo de criação das nossas imagens, podemos usar tags. As tags podem ser consideradas como
+                'versões' das nossas
+                imagens. De maneira semelhante à forma como especificamos a versão do Node em nosso Dockerfile, podemos
+                criar tags para
+                nossas imagens de maneira simples.</p>
+              <pre class="text-left">
+                <code>
+                  <strong>$ docker build -t name_image:v1 .</strong>
+
+                  # Os dois pontos após o nome criam uma tag para essa imagem. Todas as vezes que fomos
+                  referenciar essa imagem agora, deveremos especificar a versão.
+                </code>
+              </pre>
+              <br>
+              <p class="lead">Dockerignore</p>
+              <p>
+                Em algumas situações, pode ser desejável evitar a cópia de todos os arquivos presentes no diretório de
+                aplicação para a
+                imagem. Por exemplo, se o projeto já possui uma pasta com os módulos do Node, não é necessário incluí-la
+                na imagem, uma
+                vez que um dos comandos executados durante a construção da imagem é o 'npm install', responsável por
+                adquirir essas
+                pastas. Se incluirmos os 'node_modules' na imagem, ocuparemos espaço desnecessário e retardaremos o
+                processo de
+                construção. Para lidar com esse cenário, a criação de um arquivo '.dockerignore' se torna vantajoso,
+                permitindo definir
+                o que será ignorado durante a construção da imagem. Depois de criar o arquivo '.dockerignore', basta
+                listar nele as
+                pastas, arquivos, etc., que devem ser ignorados na cópia dos arquivos para a imagem.
+              </p>
+              <img class="img-thumbnail d-block" src="https://i.postimg.cc/nLrGjJdv/imagem-2023-08-30-124241516.png"
+                alt="dockerignore">
+              <br>
+              <br>
+              <p class="lead">Deletando uma Imagem</p>
+              <p>Ao deletar uma imagem, é aconselhável garantir que ela não esteja sendo usada. Portanto, antes de
+                prosseguir com a
+                exclusão, é necessário remover todos os containers que foram criados com base nessa imagem. Se nenhum
+                container estiver
+                vinculado à imagem em questão, a exclusão padrão pode ser realizada sem problemas</p>
+              <pre class="text-left">
+                <code>
+                  # Deletando uma imagem
+                  <strong>$ docker image rm image_name</strong>
+                </code>
+              </pre>
+              <p>No entanto, podemos forçar a exclusão de uma imagem mesmo que ela esteja em uso, para isso basta
+                adicionar mais um argumento ao comando.</p>
+              <pre class="text-left">
+                <code>
+                  # Forçando a exclusão de uma imagem
+                  <strong>$ docker image rm image_name -f</strong>
+                </code>
+              </pre>
+
+              <hr>
+              <h4>Docker Containers</h4>
+              <p>Após a configuração de todas as camadas da imagem, você pode executar os passos para construir os
+                containers. Isso pode
+                ser feito através da execução de alguns comandos no terminal do seu computador, conforme descrito a
+                seguir.</p>
+              <pre class="text-left">
+                <code>
+                  # Verificando as imagens geradas
+                  <strong>$ docker images</strong>
+
+                  # Rodando a imagem
+                  <strong>$ docker run --name new_container_name -p 4000:4000 -d image_name</strong>
+                  
+                  # O comando “docker run” constrói o container, passamos um nome para ele por meio de “-
+                  --name”, uma porta (a porta 4000 do container será acessada pela porta 4000 do computado
+                  local), “-d” para não bloquear o terminal e, por fim, a imagem que será rodada.
+                </code>
+              </pre>
+              <p>O comando para executar a construção do container oferece diversas opções adicionais para aprimorar o
+                processo. Para
+                conhecer todas essas opções, é recomendável consultar a documentação oficial do Docker. Uma dessas
+                alternativas é o "--rm", que exclui o conteiner automaticamente após sua parada.</p>
+              <pre class="text-left">
+                <code>
+                  # Rodando a imagem
+                  <strong>$ docker run --name new_container_name -p 4000:4000 --rm image_name</strong>
+
+                  # “--rm” faz com que o container seja removido logo após ser parado.
+                </code>
+              </pre>
+              <br>
+              <p class="lead">Iniciando um Container</p>
+              <p>Containers criados com “docker run” podem ser iniciados todas as vezes que desejar.</p>
+              <pre class="text-left">
+                <code>
+                  # Verificando todos os containers criados
+                  <strong>$ docker ps -a</strong>
+
+                  # Iniciando o container
+                  <strong>$ docker start -i container_name</strong>
+                </code>
+              </pre>
+              <br>
+              <p class="lead">Parando um Container</p>
+              <p>Containers também podem ter sua execução interrompida quando for desejado.</p>
+              <pre class="text-left">
+                <code>
+                  # Verificando os containers que estão rodando
+                  <strong>$ docker ps</strong>
+
+                  # Parando o container
+                  <strong>$ docker stop container_name</strong>
+                </code>
+              </pre>
+              <p class="lead">Deletando um Container</p>
+              <pre class="text-left">
+                <code>
+                  # Deletando um container
+                  <strong>$ docker container rm container_name</strong>
+                </code>
+              </pre>
+              <p>Se houver o desejo, existe uma maneira simples de realizar uma limpeza completa, deletando containers,
+                imagens, volumes
+                e tudo o que foi criado com o Docker.</p>
+              <pre class="text-left">
+                <code>
+                  # Deletando tudo
+                  <strong>$ docker system prune -a</strong>
+                </code>
+              </pre>
+
+              <hr>
+              <h4>Docker Volume</h4>
+              <p>Docker Images são de natureza read-only, o que significa que, uma vez construídas, quaisquer
+                atualizações
+                feitas em
+                nosso diretório local não serão automaticamente refletidas na imagem. Para propagar as alterações é
+                necessário criar uma nova
+                imagem.</p>
+              <p>Felizmente, o Docker disponibiliza uma maneira de mapear arquivos locais para dentro da imagem. Dessa
+                forma, quando
+                fazemos modificações localmente, não precisamos criar uma nova imagem; podemos simplesmente propagar
+                essas
+                alterações
+                utilizando o Docker Volume.</p>
+              <p>Para trabalhar com volumes, basta adicionar uma nova opção ao comando 'docker run' durante a criação do
+                container.</p>
+              <pre class="text-left">
+              <code>
+                <strong>$ docker run --name new_container_name -p 4000:4000 -v diretório_local_do_projeto:pasta_no_container -v
+                diretório_não_mapeado_no_container image_name</strong>
+              </code>
+            </pre>
+              <p>No comando mencionado acima, depois do primeiro uso do parâmetro -v, definimos qual diretório no seu
+                computador será
+                mapeado para um diretório correspondente no container. Com isso, qualquer alteração feita entre esses
+                dois
+                diretórios
+                será refletida. O segundo uso do parâmetro -v é destinado a especificar diretórios no container que
+                permanecerão
+                inalterados, mesmo que haja diferenças nos diretórios locais. Um exemplo desse cenário é a pasta
+                'node_modules', que é
+                frequentemente ignorada no arquivo '.dockerignore'. Abaixo segue um exemplo do comando:</p>
+              <br>
+              <pre class="text-left">
+              <code>
+                <strong>$ docker run --name my_app -p 4000:4000 -v C:\Users\victor\Documents\api:/app -v
+                /app/node_modules my_image</strong>
+              </code>
+            </pre>
+              <hr>
+              <h4>Docker Compose</h4>
+              <p>Em algumas situações, pode ser que tenhamos vários projetos e desejemos executar todos esses containers
+                de uma vez. Por
+                exemplo, podemos querer executar nossa aplicação e o banco de dados simultaneamente, cada um em seu
+                próprio container, e
+                com comunicação entre eles. Para gerenciar de forma mais eficiente esses containers, o Docker Compose
+                oferece uma
+                solução conveniente. Com ele, podemos configurar todos os containers do nosso projeto em um único
+                arquivo. Isso se
+                mostra extremamente poderoso, uma vez que esse único arquivo é capaz de configurar todos os containers
+                necessários para
+                um projeto específico, incluindo o banco de dados, o backend, o frontend e outros.
+              </p>
+              <p>Esse arquivo, chamado 'docker-compose.yaml', deve ser criado na raiz (root) do projeto. A estrutura
+                básica de um arquivo
+                Docker Compose é ilustrada a seguir:</p>
+              <img class="img-thumbnail" src="https://i.postimg.cc/2S2bY1fC/imagem-2023-08-30-133048453.png"
+                alt="dockercompose">
+              <br><br>
+              <p>Nesse arquivo, começamos especificando a versão do Docker Compose. Os 'services' são essencialmente os
+                projetos de
+                imagens e containers que serão criados. Começamos definindo a imagem no campo 'build', seguido pelo nome
+                do container em
+                'container_name' e a porta que será utilizada pelo container e compartilhada com o computador, em
+                'ports'.
+                Adicionalmente, configuramos propriedades de volumes, com a observação de que, dessa vez, não é
+                necessário especificar o
+                diretório completo.</p>
+              <p>No último serviço, o uso do Docker Volume foi removido. Isso ocorre porque, no ambiente Windows,
+                trabalhar com dois
+                Docker Volumes pode causar conflitos e não funcionar conforme o esperado. As duas últimas propriedades
+                foram empregadas
+                para garantir um funcionamento adequado dos containers, ativando o modo interativo, que é necessário em
+                algumas aplicações.</p>
+              <br>
+              <p class="lead">Executando e Parando o Docker Compose</p>
+              <pre class="text-left">
+                <code>
+                  # No diretório root do projeto executar para iniciar
+                  <strong>$ docker-compose up</strong>
+
+                  # Parando o Docker Compose
+                  <strong>$ docker-compose down</strong>
+                </code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="mu-footer-area">
+        <p class="mu-copy-right">&copy; Copyright <strong>markups.io</strong>. All right reserved.</p>
+      </div>
+    </div>
+  </section>
+  <!-- End Featured Slider-->
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <!-- Bootstrap -->
+  <script src="../js/bootstrap.min.js"></script>
+  <!-- Slick slider -->
+  <script type="text/javascript" src="../js/slick.min.js"></script>
+  <!-- Filterable Gallery js -->
+  <script type="text/javascript" src="../js/jquery.filterizr.min.js"></script>
+  <!-- Gallery Lightbox -->
+  <script type="text/javascript" src="../js/jquery.magnific-popup.min.js"></script>
+  <!-- Ajax contact form  -->
+  <script type="text/javascript" src="../js/app.js"></script>
+  <!-- Featured Slider -->
+  <script type="text/javascript" src="../js/typed.min.js"></script>
+  <!-- On scroll JS  -->
+  <script src="../js/jquery.appear.js"></script>
+  <!-- Progress Bar -->
+  <script type="text/javascript" src="../js/jquery.lineProgressbar.js"></script>
+
+  <!-- Custom js -->
+  <script type="text/javascript" src="../js/custom.js"></script>
+</body>
+
+</html>
